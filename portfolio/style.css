@@ -1,0 +1,13 @@
+li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+ul {
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+
+<head>
+
+
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+
+<body>
+    <h1>Donor Information</h1>
+    <form method="post">
+
+        <table>
+
+            <tr>
+                <td><label for="fname"><strong>First Name<span>*</span></strong></label></td>
+                <td> <input type="text" id="fname" name="fname" required></td>
+            </tr>
+            <tr>
+                <td><label for="lname"><strong>Last Name<span>*</span></strong></label></td>
+                <td><input type="text" id="lname" name="lname" required> </td>
+            </tr>
+            <tr></strong>
+                <td><label for="company"><strong>Company </strong></label></td>
+                <td> <input type="text" id="company" name="company"></td>
+            </tr>
+            <tr>
+                <td><label for="address1"><strong>Address 1<span>*</span></strong></label></td>
+                <td> <input type="text" id="address1" name="address1" required></td>
+            </tr>
+            <tr>
+                <td><label for="address2"><strong>Address 2</strong></label></td>
+                <td> <input type="text" id="address2" name="address2"></td>
+            </tr>
+            <tr>
+                <td><label for="city"><strong>City<span>*</span></strong></label></td>
+                <td> <input type="text" id="city" name="city" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="state"><strong>State<span>*</span></strong></label></td>
+                <td>
+                    <select id="state" name="state">
+                        <option>Dhaka </option>
+                        <option>Rajshahi</option>
+                        <option>Sylhet</option>
+                        <option>Chittagong</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="zip"><strong>Zip Code<span>*</span></strong></label></td>
+                <td><input type="number" id="zip" name="zip" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="country"><strong>Country<span>*</span></strong></label></td>
+                <td>
+                    <select id="country" name="country" required>
+                        <option>Bangladesh </option>
+                        <option>USA</option>
+                        <option>England</option>
+                        <option>Australia</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td><label for="phone"><strong>Phone</strong></label></td>
+                <td><input type="tel" id="phone" name="phone"></td>
+            </tr>
+
+            <tr>
+                <td><label for="fax"><strong>Fax</strong></label></td>
+                <td> <input type="text" id="fax" name="fax"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email"><strong>Email<span>*</span></strong></label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label><strong>Donation Amount<span>*</span></strong></label></td>
+                <td>
+                    <input type="radio" name="damount" value="none" required> None
+                    <input type="radio" name="damount" value="$50"> $50
+                    <input type="radio" name="damount" value="$75"> $75
+                    <input type="radio" name="damount" value="$100"> $100
+                    <input type="radio" name="damount" value="$250"> $250
+                    <input type="radio" name="damount" value="other"> Other
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+                    <label>(Check a button or <br> type in your amount)</label>
+                </td>
+
+                <td><label for="otherAmount"><strong>Other Amount $</strong></label>
+                    <input type="number" id="otherAmount" name="otherAmount">
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+                    <label><strong>Recurring Donation</strong></label>
+                </td>
+
+                <td>
+                    <input type="checkbox" value="yes"> I am interested in giving on a regular basis.
+
+            </tr>
+
+            <tr>
+
+                <td>
+                    <label>(Check if yes)</label>
+                </td>
+
+                <td><label for="monthlyAmount">Monthly Credit Card $</label>
+                    <input type="number" id="monthlyAmount" name="monthlyAmoubnt">
+                    <label for="months">For</label>
+                    <input type="number" id="months" name="months">
+                    <label for="months">Months</label>
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+                </td>
+            </tr>
+
+        </table>
+
+
+
+    </form>
+</body>
+
+</html>
