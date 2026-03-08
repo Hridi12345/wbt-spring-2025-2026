@@ -66,8 +66,9 @@ body {
 
 .top-text {
     display: inline-block;
-    margin: 0;
+    margin-top: 25px;
     margin-bottom: 30px;
+    vertical-align: top;
 }
 
 
