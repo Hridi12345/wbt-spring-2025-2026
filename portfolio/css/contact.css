@@ -40,11 +40,85 @@ body {
     padding: 0;
 }
 
+.error {
+    color: red;
+    font-size: 15px;
+    display: block;
+    margin-top: 3px;
+}
+
+.required {
+    color: red;
+}
+
 form {
 
     margin: 150px;
     margin-top: 0px;
 
+}
+
+.form-table td {
+    padding: 4px 5px;
+    vertical-align: top;
+}
+
+.form-table td:first-child {
+    width: 100px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.form-table input[type="checkbox"],
+.form-table input[type="radio"] {
+    margin-top: 10px;
+}
+
+.form-table input[type="text"],
+.form-table textarea {
+    width: 280px;
+    padding: 5px 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-table textarea {
+    resize: vertical;
+}
+
+.form-table input[type="submit"] {
+    padding: 7px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.form-table input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.result-table {
+    border-collapse: collapse;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.result-table td {
+    padding: 7px 12px;
+    border: 1px solid #ddd;
+}
+
+.result-table td:first-child {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    width: 120px;
 }
 
 .boxmodel {
